@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100%
+}
+.container{
+    width: 1200px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    color: #541d54;
+    font-size: 50px;
+    font-weight: 700;
+}
+.text p{
+    color: #887e86;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    background-color: #f7f2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.stars{
+    padding-left: 20px;
+}
+.first h2{
+    padding-left: 30px;
+    padding-right: 60px;
+    color: #3e283f;
+    font-weight: 700;
+    font-size: 13px;
+}
+.second{
+    background-color: #f7f2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 75px;
+}
+.second h2{
+    padding-left: 30px;
+    padding-right: 60px;
+    color: #3e283f;
+    font-weight: 700;
+    font-size: 13px;
+}
+.third{
+    background-color: #f7f2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 150px;
+}
+.third h2{
+    padding-left: 30px;
+    padding-right: 60px;
+    color: #3e283f;
+    font-weight: 700;
+    font-size: 13px;
+}
+.bot{
+    display: flex;
+    height: 280px;
+    justify-content: space-between;
+}
+.box{
+    background-color: #511f50;
+    border-radius: 10px;
+    padding: 25px;
+    height: 180px;
+}
+.prof{
+    display: flex;
+    align-items: center;
+}
+.prof img{
+    border-radius: 50%;
+    width: 50px;
+}
+.name{
+    margin-left: 20px;
+}
+.name h3{
+    color: white;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.name h4{
+    color: #c170a8;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+}
+.box p{
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+#box-1{
+    margin-top: 40px;
+}
+#box-2{
+    margin-top: 60px;
+}
+#box-3{
+    margin-top: 80px;
+}
+@media only screen and (max-width: 375px){
+    .body{
+        display:flex;
+        flex-direction: column;
+    }
+    .container{
+        max-width: 350px;
+        padding-top: 100px;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .rate{
+        flex-direction: column;
+    }
+    .head{
+        color: #541d54;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .text p{
+        color: #887e86;
+        line-height: 25px;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .first{
+        background-color: #f7f2f8;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 310px;
+    }
+    .first h2{
+        color: #3e283f;
+        font-weight: 700;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .second{
+        background-color: #f7f2f8;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-left: 0;
+        width: 310px;
+    }
+    .second h2{
+        color: #3e283f;
+        font-weight: 700;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .third{
+        background-color: #f7f2f8;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-left: 0;
+        width: 310px;
+    }
+    .third h2{
+        color: #3e283f;
+        font-weight: 700;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .bot{
+        display: flex;
+        flex-direction: column;
+    }
+}
